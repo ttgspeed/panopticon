@@ -10,7 +10,14 @@ const client = new Client({
 
 const token = process.env.BOT_TOKEN;
 
-const monitoredChannels = ['1122706227240116294', '1019440695775342684', '1048123185352159242'];
+const monitoredChannels = [
+    '1122706227240116294', // family smol
+    '1019440695775342684', // general smol
+    '1048123185352159242', // general smol 2
+    '1137180047065759874', // no yelling
+    '1021185524330938428', // homework
+    '1072647215132196904'  // live stream
+];
 const logChannelId = '954560567132164106';
 let limitBypass = false;
 
